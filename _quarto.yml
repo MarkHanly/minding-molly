@@ -1,16 +1,20 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Minding Molly"
   author: "Mark and Kitty"
   date: last-modified
+  date-format: MMMM YYYY
+  cover-image: images/molly-urban.jpg
   chapters:
     - index.qmd
     - food.qmd
     - exercise.qmd
     - health.qmd
     - behaviour.qmd
+    - appendices.qmd
 
 format:
   html:
