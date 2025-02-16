@@ -1,0 +1,22 @@
+project:
+  type: book
+
+book:
+  title: "Minding Molly"
+  author: "Mark and Kitty"
+  date: last-modified
+  chapters:
+    - index.qmd
+    - food.qmd
+    - exercise.qmd
+    - health.qmd
+    - behaviour.qmd
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
