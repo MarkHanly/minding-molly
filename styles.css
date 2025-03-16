@@ -1,0 +1,57 @@
+.video-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.video-box {
+  border: 2px solid transparent;
+  transition: border 0.3s, transform 0.3s;
+  background-color: #E3E3E3;
+}
+
+.video-box:hover {
+  border: 2px solid var(--bs-primary);
+  transform: scale(1.03);
+}
+
+.video-box p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.video-box video {
+  margin-top: 0px;
+  max-width: 100%;
+}
+
+
+.bio {
+
+}
+
+.bio::first-letter {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: cursive;
+  color: var(--bs-primary);
+  float: left; /* Aligns the first letter to the left */
+  margin-right: 5px; /* Adds some spacing */
+  line-height: 1; /* Ensures the letter aligns well */
+}
+
+/* Responsive: 1 column for mobile */
+
+@media (max-width: 800px) {
+  .video-container {
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .video-container {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+}

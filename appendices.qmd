@@ -1,32 +1,9 @@
+---
+lightbox: true
+---
+
 # Appendices
 
 ## Nicknames
 
 ![](images/nicknames.png)
-
-# Commands
-
-```{r}
-#| echo: false
-
-library(huxtable)
-
-tab <- huxtable(
-  Command = c("Go find daddy's slippers"),
-  
-  Gesture = c("Point in the direction"),
-  
-  Demo = c("![image text](images/slippers.M4V)") 
-  
-)
-
-tab |>
-  set_all_padding(4) |>
-  set_outer_padding(0) |>
-  set_bold(row = 1, col = everywhere) |>
-  set_bottom_border(row = 1, col = everywhere) |>
-  set_width(1.0) |>
-  set_valign(row=everywhere, col=everywhere, "top") |>
-  set_caption("Main motivation for the assessment of effect modification, interaction and mediation.")
-```
-

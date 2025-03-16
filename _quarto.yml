@@ -7,7 +7,7 @@ book:
   author: "Mark and Kitty"
   date: last-modified
   date-format: MMMM YYYY
-  cover-image: images/molly-urban.jpg
+  cover-image: images/molly-sunset.JPEG
   chapters:
     - index.qmd
     - food.qmd
@@ -19,6 +19,7 @@ book:
 format:
   html:
     theme: cosmo
+    css: styles.css
   pdf:
     documentclass: scrreprt
 

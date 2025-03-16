@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-7580570a2e354cd56757c689413fca0c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -69,6 +72,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -152,7 +156,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#nicknames" id="toc-nicknames" class="nav-link active" data-scroll-target="#nicknames"><span class="header-section-number">5.1</span> Nicknames</a></li>
-  <li><a href="#commands" id="toc-commands" class="nav-link" data-scroll-target="#commands"><span class="header-section-number">6</span> Commands</a></li>
   </ul>
 </nav>
     </div>
@@ -180,39 +183,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="nicknames" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="nicknames"><span class="header-section-number">5.1</span> Nicknames</h2>
-<p><img src="images/nicknames.png" class="img-fluid"></p>
-</section>
-<section id="commands" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Commands</h1>
-<div class="cell">
-<div class="cell-output-display">
-<div id="tab:unnamed-chunk-1" class="huxtable quarto-float quarto-figure quarto-figure-center anchored" data-quarto-postprocess="true" style="border-collapse: collapse; border: 0px; margin-bottom: 2em; margin-top: 2em; width: 100%; margin-left: auto; margin-right: auto;  ">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tab:unnamed-chunk-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;6.1: Main motivation for the assessment of effect modification, interaction and mediation.
-</figcaption>
-<div aria-describedby="tab:unnamed-chunk-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table id="tab:unnamed-chunk-1" class="huxtable caption-top table table-sm table-striped small" data-quarto-postprocess="true">
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th" style="text-align: left; vertical-align: top; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0pt; padding: 0pt 4pt 4pt 0pt; font-weight: bold;">Command</td>
-<td data-quarto-table-cell-role="th" style="text-align: left; vertical-align: top; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0pt; padding: 0pt 4pt 4pt 4pt; font-weight: bold;">Gesture</td>
-<td data-quarto-table-cell-role="th" style="text-align: left; vertical-align: top; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0pt; padding: 0pt 0pt 4pt 4pt; font-weight: bold;">Demo</td>
-</tr>
-<tr class="even">
-<td style="text-align: left; vertical-align: top; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0pt 0pt; padding: 4pt 4pt 0pt 0pt; font-weight: normal;">Go find daddy's slippers</td>
-<td style="text-align: left; vertical-align: top; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0pt 0pt; padding: 4pt 4pt 0pt 4pt; font-weight: normal;">Point in the direction</td>
-<td style="text-align: left; vertical-align: top; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0pt 0pt; padding: 4pt 0pt 0pt 4pt; font-weight: normal;">![image text](images/slippers.M4V)</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-
-
-</div>
-</div>
+<p><a href="images/nicknames.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/nicknames.png" class="img-fluid"></a></p>
 
 
 </section>
@@ -645,6 +616,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

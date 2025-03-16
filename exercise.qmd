@@ -6,6 +6,16 @@ Molly needs 40-60 minutes of exercise a day, usually in two 20-30 minute session
 
 Molly loves to go for walks and will do lots of sniffing and scenting. She (usually) doesn't pull ahead on the leash but she will pull to either side to follow a smell that she likes.
 
+:::: {.content-visible when-format="html"}
+
+::: {.aside}
+
+![🔊 If Molly is pulling ahead you can call her back with "Heel to me" ](images/heel.mp4) 
+
+:::
+
+::::
+
 ::: {.callout-note}
 ### Note
 
@@ -20,16 +30,29 @@ Molly loves to go for walks and will do lots of sniffing and scenting. She (usua
 
 Molly's absolute favourite thing is to chase her ball. She will bring it back to you but usually likes to sit and "mind" her ball, rather than immediately give it up for another throw. She will play fetch all day, even until her hips are sore, so we always leave plenty of breaks between throws and limit the length of a fetch session to 10 minutes or so. She will quickly chew through a tennis ball so we always use the durable orange ball <span><img src="images/durable-ball.png" height='14pt'></span>  
 
+::: {.aside}
+
+![Molly minding her ball](images/molly-ball.jpg)
+:::
+
 ::: {.callout-important}
 ### Note
 
-Molly is very possessive of her ball so never her let her play with her ball around other dogs. If a dog approaches her while she is "minding" her ball she will snap at the dog. 
+Molly is very possessive of her ball so please **never** her let her play with her ball around other dogs. If a dog approaches her while she is "minding" her ball she will snap at the dog. 
 
 :::
 
 ## Games
 
 Molly loves lots of games and these are a great complement to her more physical exercise (or a good substitute if it is too wet for a proper walk). 
+
+:::: {.content-visible when-format="html"}
+
+::: {.aside}
+![Games like Fetch the slippers and Find the toy are great brainwork](images/IMG_1124.M4V)
+:::
+
+::::
 
 Games we play with Molly include: 
 
@@ -48,10 +71,11 @@ Molly knows lots of tricks and commands. These can be chained together in any co
 * Down 
 * Down (from a distance)
 * Stay (and come)
-* Hop up
-* Paws up
+* Leave it
+* Hop up (jump on to a seat or bench)
+* Paws up (put front paws onto a low wall, step or kerb)
 * High five
 * Hide
 * Heel (Right: "Heel to me"; Left: "Switch sides")
-* Cheers
+* Cheers 
 
