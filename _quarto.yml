@@ -8,6 +8,7 @@ book:
   date: last-modified
   date-format: MMMM YYYY
   cover-image: images/molly-sunset.JPEG
+  image: images/molly-sunset.JPEG
   chapters:
     - index.qmd
     - food.qmd
