@@ -13,9 +13,9 @@ names <- data.frame(
            "Spindle", "Thumper", "Warboy", "Humper", "Chomper", "Chomple Paws",
            "Pud", "Puddle", "Pretty Patel", "Captain Crunch",
            "Gurrlfriend", "Slobbered-on Milosevic", "Colonel Sanders",
-           "Baby Gurl")) |>
+           "Baby Gurl", "Scooter", "Puddleduck")) |>
   mutate(
-    size = c(300, 200, round(rnorm(n() - 2, 100, 30))),
+    size = c(400, 200, round(rnorm(n() - 2, 100, 30))),
     angle = 90 * sample(c(0, 1), n(), replace = TRUE, prob = c(70, 30)))
 
 

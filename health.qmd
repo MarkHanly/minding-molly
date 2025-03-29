@@ -18,6 +18,20 @@ Molly is fully up-to-date with annual vaccinations (C7). She receives her vaccin
 
 ## Fleas and Worms
 
+:::: {.content-visible when-format="html"}
+::: {.aside}
+
+![No fleas here!](images/molly-tie.jpg)
+
+:::
+::::
+
+:::: {.content-visible when-format="pdf"}
+
+![No fleas here!](images/molly-tie.jpg)
+
+::::
+
 Molly takes a monthly tablet for fleas, worms, ticks etc. She takes [NexGard Spectra](https://www.petbarn.com.au/nexgard-spectra-for-dogs-15-1-30kg?sku=134736) (for 15-30kg dogs) on the 13th of every month.
 
 ## Desexing
@@ -27,8 +41,18 @@ Molly is desexed.
 
 ## Hip Dysplasia
 
-Molly has hip dysplasia. This is generally doesn't cause any issues and is kept in check by limiting the extent of her physical exercise sessions. In her morning meal we include 1ml of [4cyte joint supplement](https://au.4cyte.global/dogs/4cyte-epiitalis-forte-for-dogs/). Molly will get lame, stiff, or sore if she is given too much physical exercise. 
+Molly has hip dysplasia. This is generally doesn't cause any issues and is kept in check by limiting the extent of her physical exercise sessions. In her morning meal we include 1ml of [4cyte joint supplement](https://au.4cyte.global/dogs/4cyte-epiitalis-forte-for-dogs/). Molly will get lame, stiff, or sore if she is given too much physical exercise. If she does overdo it and is stiff or limping, we give her Meloxicam (1.2ml once a day with food). 
 
 ## Grooming
 
-Molly is fastidious with her own grooming and will usually spend some time every morning and evening grooming and "cleaning" her paws. Her coat is non-shed and can get matted easily so we pick out any burrs etc straight away and comb her regularly, especially her ears which are prone to knots otherwise. 
+Molly is fastidious with her own grooming and will usually spend some time every morning and evening grooming and "cleaning" her paws. Her coat is non-shed and can get matted easily so we pick out any burrs etc straight away and comb her regularly, especially her ears which are prone to knots otherwise. If Molly needs a wash we use [Dermcare Alovene Oatmeal Shampoo](https://www.petcircle.com.au/product/aloveen-shampoo). 
+
+:::: {.content-visible when-format="html"}
+::: {.aside}
+![Molly is generally clean but sometimes but if a bath is unavoidable you can use the shampoo provided](images/molly-dirty.jpg)
+:::
+::::
+
+:::: {.content-visible when-format="pdf"}
+![Molly is generally clean but sometimes but if a bath is unavoidable you can use the shampoo provided](images/molly-dirty.jpg){width=50%}
+::::

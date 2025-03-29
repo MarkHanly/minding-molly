@@ -2,11 +2,38 @@
 
 ## Regular Meals 
 
-Molly's main food is [Hill's Science Diet Sensitive Stomach & Skin Adult Dog Food](https://www.petbarn.com.au/science-diet-sensitive-stomach-skin-adult-dog-food?sku=137412). She eats one cup in the morning (usually about 8-9am) and one cup in the evening (ususally about 7-8pm).
+:::: {.content-visible when-format="html"}
+
+::: {.aside}
+![One cup of kibble, morning and evening](images/food-1.png)
+:::
+
+::::
+
+:::: {.content-visible when-format="pdf"}
+![One cup of kibble, morning and evening](images/food-1.png){width=50%}
+::::
+
+Molly's main food is [Hill's Science Diet Sensitive Stomach & Skin Adult Dog Food](https://www.petbarn.com.au/science-diet-sensitive-stomach-skin-adult-dog-food?sku=137412). She eats one cup in the morning (usually about 8am) and one cup in the evening (usually about 6pm).
 
 In her morning meal we include 1ml of [4cyte joint supplement](https://au.4cyte.global/dogs/4cyte-epiitalis-forte-for-dogs/). 
 
-Sometimes we will add small amounts of other food to Molly's kibble, for example if we are having banana with our breakfast we will give here a few slices too. Foods Molly enjoys like this include:
+:::: {.content-visible when-format="html"}
+
+::: {.aside}
+![Supplement with breakfast](images/food-2.png)
+:::
+
+::::
+
+
+:::: {.content-visible when-format="pdf"}
+
+![Supplement with breakfast](images/food-2.png){width=50%}
+
+::::
+
+Sometimes we will add small amounts of other food to Molly's kibble, for example if we are having banana with our breakfast we will give here a few slices too. Foods Molly enjoys in this way include:
 
 * Banana
 * Blueberries
@@ -24,7 +51,21 @@ Sometimes we will add small amounts of other food to Molly's kibble, for example
 
 We usually use [vitapet milky sticks](https://vitapet.com/au/products/milky-sticks/) for training treats. Molly will enjoy all sorts of dog treats but please only in moderation. For example, we would give her two vita sticks a day, broken into to small pieces for training and walking.  
 
+:::: {.content-visible when-format="html"}
+
+::: {.aside}
+![Two vita sticks a day, broken up small for training and treats](images/treats.png)
+:::
+
+::::
+
+:::: {.content-visible when-format="pdf"}
+
+![Two vita sticks a day, broken up small for training and treats](images/treats.png){width=50%}
+
+::::
+
 ## Allergies/Food issues
 
-* Molly loves chicken but too much can give her diarrhoea
-* Molly loves bones (e.g. uncooked beef bones) but chewing on these for too long can give her an upset stomach (constipation/diarrhoea)
+* Molly loves chicken but too much can give her diarrhoea, so we avoid this. 
+* Molly loves bones (e.g. uncooked beef bones) but chewing on these for too long can give her an upset stomach (constipation/diarrhoea).

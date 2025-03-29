@@ -8,6 +8,7 @@ book:
   date: last-modified
   date-format: MMMM YYYY
   cover-image: images/molly-sunset.JPEG
+  favicon: images/durable-ball copy.png
   site-url: https://markhanly.github.io/minding-molly/
   image: images/molly-sunset.JPEG
   chapters:

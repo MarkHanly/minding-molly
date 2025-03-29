@@ -7,3 +7,5 @@ lightbox: true
 ## Nicknames
 
 ![](images/nicknames.png)
+
+![Our Molly 💖](images/molly-bliss.jpg)
