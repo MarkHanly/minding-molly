@@ -7,10 +7,10 @@ book:
   author: "Mark and Kitty"
   date: last-modified
   date-format: MMMM YYYY
-  cover-image: images/molly-sunset.JPEG
+  cover-image: images/molly-beach.png
+  image: images/molly-sunset.JPEG
   favicon: images/durable-ball copy.png
   site-url: https://markhanly.github.io/minding-molly/
-  image: images/molly-sunset.JPEG
   chapters:
     - index.qmd
     - food.qmd
